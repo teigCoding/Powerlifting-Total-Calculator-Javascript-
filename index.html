@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Powerlifting Total Calculator</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Powerlifting Total Calculator</h1>
+    <div id="weightButton">
+    <button id="poundsButton">Show pounds</button>
+    <button id="kilosButton">Show kilos</button>
+</div>
+    <form>
+    <p><label id="benchLabel">Bench in KG:   </label><input type="text" id="bench"></p>
+    <p><label id="deadliftLabel">Deadlift in KG:   </label><input type="text" id="deadlift"></p>
+    <p><label id="squatLabel">Squat in KG:   </label><input type="text" id="squat"></p>
+
+    <p><label id="bodyWeightLabel">Bodyweight in KG:   </label><input type="text" id="bodyWeight"></p>
+    <div id="error"></div>
+    <div id="results"></div>
+    <div id="calculateButton">
+    <button>Calculate</button>
+</div>
+
+
+    </div>
+    </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,52 @@
+
+.container {
+    background-color: lightblue;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+
+#bench, #deadlift, #squat, #bodyWeight {
+    width: 150px;
+    height: 25px;
+}
+
+
+#error{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: crimson;
+    font-weight: bold;
+}
+#results{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#calculateButton button{
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 25px;
+}
+#weightButton button{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: grey;
+    color: #fff;
+    font-size: 10px;
+}
+
+
+
+h1 {
+
+}
